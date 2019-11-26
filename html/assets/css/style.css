@@ -19,8 +19,8 @@
 }
 
 .flex-container img:hover {
-  width: 900px;
-  height: 660px;
+  width: 850px;
+  height: 460px;
   -webkit-transform: rotate(360deg); /* Safari */
   transform: rotate(360deg);
 }
