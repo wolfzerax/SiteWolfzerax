@@ -12,24 +12,24 @@
 
 
 .flex-container img{
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     
-  -webkit-transition: width 2s, height 2s, -webkit-transform 5s; /* Safari */
-  transition: width 2s, height 2s, transform 2s;
+  -webkit-transition: width 3s, height 3s, -webkit-transform 5s; /* Safari */
+  transition: width 3s, height 3s, transform 3s;
 }
 
 .flex-container img:hover {
-  width: 850px;
-  height: 460px;
+  width: 70%;
+  height:35%;
   -webkit-transform: rotate(360deg); /* Safari */
   transform: rotate(360deg);
 }
     
 }
 .box-lateral{
-    margin-left: 100px;
-    height: 150px;
-    width: 900px;
+    margin-left: 10%;
+    height: 20%;
+    width: 50%;
 }
 
 /* alteração de estilo do menu */
@@ -37,9 +37,12 @@ ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    margin-left: 0%;
+    margin-right: 20%;
+    padding: 1%;
+    
+   
+    
     
 }
 /* menu tipo linha*/
@@ -64,7 +67,7 @@ text-align: justify;
 }
 p
 {
-    font-size: 22px;
+    font-size: 155%;
     color: blanchedalmond;
     font-family: 'Odibee Sans', cursive;
 text-align: justify;
@@ -72,19 +75,18 @@ text-align: justify;
 .button
 {
 text-align: top right;
-margin-left: 1227px;
+display: flex;
+justify-content: flex-end;
 }
 .botoom{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 3%;
 }
 .links{
     list-style: none;
     display: flex;
     justify-content: space-around;
-
-
 
 
 }
