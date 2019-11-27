@@ -1,0 +1,39 @@
+#top{
+    display: flex;
+    background-image: linear-gradient(to right,blue 10% , gray);
+    height: 50px;
+}
+.tudao{
+    width: 100%;
+}
+#imagemlogo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.flex-container img{
+    
+  -webkit-transition: width 2s, height 2s, -webkit-transform 3s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.flex-container img:hover {
+  width: 10%;
+  height:15%;
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg);
+}
+#textologo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+}
+#salarios{
+    display: flex;
+    justify-content: center;
+}
