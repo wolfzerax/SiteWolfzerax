@@ -1,6 +1,10 @@
 div.flex-container#testeira{
     
     background-image: linear-gradient(to right, rgb(38, 6, 184) , rgb(95, 95, 90))
+    
+}
+#testeira img {
+    justify-content: center;
 }
 
 .input-group {
@@ -18,8 +22,8 @@ div.flex-container#boteira{
 div#box{
     width: 70%;
     margin-left: 15%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
-img#carinho{
-    margin-left: 15%;
-}
+#carinho{
+    margin-top: 10px;
+ }
