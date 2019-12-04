@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="trellin.css">
+    <script src="trellin.js"></script>
+
+</head>
+
+<body>
+
+       
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-12"><button onclick="recuperar()">Recuperar itens</button>
+                    </div>
+                </div>
+        <div class="row" id="item" > 
+            <div class="col-md-4" id="itens1">
+                <h3>Pendencias</h3>
+            </div>
+        <div class="col-md-4" id="itens2">
+                <h3>Fazendo</h3>
+        </div>
+        <div class="col-md-4" id="itens3" >
+                <h3>Concluida(as)</h3>
+        </div>
+        </div>
+        
+        
+        <div class="row" id="item">
+            <div class="col-md-4"ondrop="receber(event);" ondragover="podeArrastar(event);" id="pendencia" >
+
+            </div>
+            <div class="col-md-4"ondrop="receber(event);" ondragover="podeArrastar(event);" id="fazendo">
+
+            </div>
+            <div class="col-md-4"ondrop="receber(event);" ondragover="podeArrastar(event);" id="concluida">
+
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html> 
